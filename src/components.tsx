@@ -36,7 +36,7 @@ export function Intro({ onDone }: { onDone: () => void }) {
       <motion.div className="intro-grid" />
       <motion.div className="intro-content">
         <motion.div className="intro-photo-wrap" initial={{ scale: .92, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: .7 }}>
-          <img src="/images/my-profile-photo.jpeg" alt="Rahul Swain" onError={(e) => (e.currentTarget.style.display = "none")} />
+          <img src="/images/my-profile-photo.png" alt="Rahul Swain" onError={(e) => (e.currentTarget.style.display = "none")} />
         </motion.div>
         <motion.div className="eyebrow" initial={{ y: 16, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: .35 }}>RAHUL SWAIN</motion.div>
         <motion.div className="intro-role" initial={{ y: 18, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: .5 }}>TECH ENTREPRENEUR · CONTENT CREATOR</motion.div>
@@ -120,7 +120,7 @@ export function Hero() {
         </div></Reveal>
       </div>
       <motion.div ref={portrait} className="hero-portrait" style={{ y }} onPointerMove={handlePointerMove} onPointerLeave={resetPointer} initial={{ opacity: 0, x: 28 }} animate={{ opacity: 1, x: 0 }} transition={reduceMotion ? { duration: 0 } : { delay: .85, duration: .9, ease: "easeOut" }}>
-        <img src="/images/my-profile-photo.jpeg" alt="Rahul Swain portrait" />
+        <img src="/images/my-profile-photo.png" alt="Rahul Swain portrait" />
         <div className="location-chip"><span className="dot" /> KENDRAPARA, ODISHA, INDIA</div>
         <div className="tech-float tf4">ENTREPRENEUR</div>
       </motion.div>
