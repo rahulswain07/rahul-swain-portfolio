@@ -120,7 +120,7 @@ export function Hero() {
         </div></Reveal>
       </div>
       <motion.div ref={portrait} className="hero-portrait" style={{ y }} onPointerMove={handlePointerMove} onPointerLeave={resetPointer} initial={{ opacity: 0, x: 28 }} animate={{ opacity: 1, x: 0 }} transition={reduceMotion ? { duration: 0 } : { delay: .85, duration: .9, ease: "easeOut" }}>
-        <img src="/images/rahul-hero.jpeg" alt="Rahul Swain portrait" />
+        <img src="/images/my-profile-photo.jpeg" alt="Rahul Swain portrait" />
         <div className="location-chip"><span className="dot" /> KENDRAPARA, ODISHA, INDIA</div>
         <div className="tech-float tf4">ENTREPRENEUR</div>
       </motion.div>
