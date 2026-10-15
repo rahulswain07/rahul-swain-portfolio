@@ -209,7 +209,7 @@ export function BuildInPublic() {
     <section id="build" className="section build">
       <Reveal><div className="eyebrow"><span /> 04 / BUILD IN PUBLIC</div><h2>I'm building in public.</h2><p className="lead narrow">Learning, building and sharing the process — not only the final result.</p></Reveal>
       <div className="social-profile">
-        <img src="/images/rahul-hero.jpeg" alt="Rahul Swain" />
+        <img src="/images/my-profile-photo.png" alt="Rahul Swain" />
         <div>
           <h3>Rahul Swain</h3>
           <p>Content Creator • Tech Entrepreneur • B.Sc. Computer Science Student</p>
